@@ -33,4 +33,26 @@ describe Solver do
     expect(solver.reverse('naman')).to eq('naman')
     end
 
+    it "it should return 'fiZZ' for 3 " do
+        expect(solver.fizzbuzz(3)).to eq('fizz')
+    end
+    it "it should return 'buzz' for 5 " do
+        expect(solver.fizzbuzz(5)).to eq('buzz')
+    end
+    it "it should return 'fiZZbuzz' for 15 " do
+        expect(solver.fizzbuzz(15)).to eq('fiZZbuzz')
+    end
+    it "it should return 'fiZZbuzz' for 60 " do
+        expect(solver.fizzbuzz(60)).to eq('fiZZbuzz')
+    end
+    it "it should return '7' for 7 " do
+        expect(solver.fizzbuzz(7)).to eq('7')
+    end
+    it "it should return '13' for 13 " do
+        expect(solver.fizzbuzz(13)).to eq('13')
+    end
+    it "it should return 'fiZZ' for 0 " do
+        expect(solver.fizzbuzz(0)).to eq('fiZZbuzz')
+    end
+
 end

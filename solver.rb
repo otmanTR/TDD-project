@@ -10,6 +10,9 @@ class Solver
     def reverse(w)
         return w.reverse
     end
+    def fizzbuzz(n)
+        
+    end
 end
 
 solver = Solver.new
