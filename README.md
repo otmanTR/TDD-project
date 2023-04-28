@@ -99,15 +99,7 @@ bundel install
 ```
 
 ### Usage
-
-To run the project, execute the following command:
-
-you can use it for you library purpose 
-run following commands in you `terminal` in root `dir`
-```
-ruby main.rb
-
-```
+you can use it for solving various problems
 
 ### Run tests
 
@@ -142,6 +134,10 @@ rspec spec
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+- [ ] record breaker
+- [ ] guess game
+- [ ] funker monkey
+solver in future
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
