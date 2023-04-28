@@ -39,11 +39,11 @@ describe Solver do
     it "it should return 'buzz' for 5 " do
         expect(solver.fizzbuzz(5)).to eq('buzz')
     end
-    it "it should return 'fiZZbuzz' for 15 " do
-        expect(solver.fizzbuzz(15)).to eq('fiZZbuzz')
+    it "it should return 'fizzbuzz' for 15 " do
+        expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
-    it "it should return 'fiZZbuzz' for 60 " do
-        expect(solver.fizzbuzz(60)).to eq('fiZZbuzz')
+    it "it should return 'fizzbuzz' for 60 " do
+        expect(solver.fizzbuzz(60)).to eq('fizzbuzz')
     end
     it "it should return '7' for 7 " do
         expect(solver.fizzbuzz(7)).to eq('7')
@@ -52,7 +52,7 @@ describe Solver do
         expect(solver.fizzbuzz(13)).to eq('13')
     end
     it "it should return 'fiZZ' for 0 " do
-        expect(solver.fizzbuzz(0)).to eq('fiZZbuzz')
+        expect(solver.fizzbuzz(0)).to eq('fizzbuzz')
     end
 
 end
