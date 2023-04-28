@@ -7,6 +7,9 @@ class Solver
         end
         return result
     end
+    def reverse(w)
+        return w.reverse
+    end
 end
 
 solver = Solver.new
